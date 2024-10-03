@@ -67,7 +67,7 @@
           <td class="py-3 px-6 text-center capitalize">{{ student.subject }}</td>
           <td class="py-3 px-6 text-center">{{ student.payment }}</td>
           <td class="py-3 px-6 text-center gap-2">
-            <button @click="openEditModal(student)" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+               <button @click="openEditModal(student)" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
               <i class="fa-solid fa-pen-to-square"></i>
             </button>
             <button @click="deleteStudent(student.id)" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 mx-3 px-4 rounded">
